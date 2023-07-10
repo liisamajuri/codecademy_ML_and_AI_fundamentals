@@ -1,0 +1,34 @@
+2023-06-22 17:52:39,181 - __main__ - INFO - Start Log
+2023-06-22 17:52:39,444 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2023-06-22 17:52:39,445 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("cademycode_aggregated")
+2023-06-22 17:52:39,445 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2023-06-22 17:52:39,446 - sqlalchemy.engine.Engine - INFO - PRAGMA temp.table_info("cademycode_aggregated")
+2023-06-22 17:52:39,447 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2023-06-22 17:52:39,451 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE cademycode_aggregated (
+	uuid BIGINT, 
+	name TEXT, 
+	dob TEXT, 
+	sex TEXT, 
+	job_id INTEGER, 
+	num_course_taken FLOAT, 
+	current_career_path_id INTEGER, 
+	time_spent_hrs FLOAT, 
+	age FLOAT, 
+	age_group BIGINT, 
+	email TEXT, 
+	street TEXT, 
+	city TEXT, 
+	state TEXT, 
+	zip_code TEXT, 
+	career_path_id BIGINT, 
+	career_path_name TEXT, 
+	hours_to_complete BIGINT, 
+	job_category TEXT, 
+	avg_salary BIGINT
+)
+
+
+2023-06-22 17:52:39,457 - sqlalchemy.engine.Engine - INFO - [no key 0.00633s] ()
+2023-06-22 17:52:39,526 - sqlalchemy.engine.Engine - INFO - INSERT INTO cademycode_aggregated (uuid, name, dob, sex, job_id, num_course_taken, current_career_path_id, time_spent_hrs, age, age_group, email, street, city, state, zip_code, career_path_id, career_path_name, hours_to_complete, job_category, avg_salary) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-06-22 17:52:39,526 - sqlalchemy.engine.Engine - INFO - [generated in 0.04846s] [(1, 'Annabelle Avery', '1943-07-03', 'F', 7, 6.0, 1, 4.99, 79.0, 70, 'annabelle_avery9376@woohoo.com', '303 N Timber Key', ' Irondale', ' Wisconsin', ' 84736', 1, 'data scientist', 20, 'HR', 80000), (2, 'Micah Rubio', '1991-02-07', 'M', 7, 5.0, 8, 4.4, 32.0, 30, 'rubio6772@hmail.com', '767 Crescent Fair', ' Shoals', ' Indiana', ' 37439', 8, 'android developer', 27, 'HR', 80000), (3, 'Hosea Dale', '1989-12-07', 'M', 7, 8.0, 8, 6.74, 33.0, 30, 'hosea_dale8084@coldmail.com', 'P.O. Box 41269', ' St. Bonaventure', ' Virginia', ' 83637', 8, 'android developer', 27, 'HR', 80000), (4, 'Mariann Kirk', '1988-07-31', 'F', 6, 7.0, 9, 12.31, 34.0, 30, 'kirk4005@hmail.com', '517 SE Wintergreen Isle', ' Lane', ' Arkansas', ' 82242', 9, 'machine learning engineer', 35, 'education', 61000), (5, 'Lucio Alexander', '1963-08-31', 'M', 7, 14.0, 3, 5.64, 59.0, 50, 'alexander9810@hmail.com', '18 Cinder Cliff', ' Doyles borough', ' Rhode Island', ' 73737', 3, 'data analyst', 12, 'HR', 80000), (6, 'Shavonda Mcmahon', '1989-10-15', 'F', 6, 10.0, 3, 10.12, 33.0, 30, 'shavonda5863@coldmail.com', 'P.O. Box 81591', ' Tarpon Springs', ' Montana', ' 37057', 3, 'data analyst', 12, 'education', 61000), (7, 'Terrell Bleijenberg', '1959-05-05', 'M', 2, 9.0, 8, 24.17, 64.0, 60, 'bleijenberg188@hmail.com', 'P.O. Box 53471', ' Oskaloosa', ' Virginia', ' 85274', 8, 'android developer', 27, 'engineer', 101000), (8, 'Stanford Allan', '1997-11-22', 'M', 3, 3.0, 1, 19.54, 25.0, 20, 'stanford_allan8055@coldmail.com', '255 Spring Avenue', ' Point Baker', ' Texas', ' 15796', 1, 'data scientist', 20, 'software developer', 110000)  ... displaying 10 of 4744 total bound parameter sets ...  (4999, 'Donnetta Dillard', '1943-02-12', 'N', 3, 6.0, 5, 14.86, 80.0, 80, 'dillard7526@inlook.com', '900 Indian Oval', ' Euclid', ' Iowa', ' 59683', 5, 'backend engineer', 18, 'software developer', 110000), (5000, 'Elton Otway', '1994-12-23', 'M', 2, 5.0, 3, 10.04, 28.0, 20, 'elton_otway5644@inlook.com', '406 Zephyr Port', ' Oskaloosa', ' Alabama', ' 74534', 3, 'data analyst', 12, 'engineer', 101000)]
